@@ -1,0 +1,66 @@
+.sub_header {
+  height: 400px;
+  background: url("../images/main_visual.jpg") no-repeat center / cover;
+  color: #fff;
+  text-align: center;
+}
+
+.header_title {
+  position: relative;
+  top: 20px;
+}
+
+.header_title h2 {
+  position: relative;
+  padding-bottom: 35px;
+  margin-bottom: 36px;
+}
+
+.header_title h2::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 3px;
+  background-color: #fff;
+}
+
+.header_title p {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* --------------gallery-------------- */
+
+.gallery_btns {
+  margin: 80px 0 60px;
+  gap: 20px;
+}
+
+.gallery_btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid var(--gray-light);
+}
+
+.gallery_btn.on {
+  background-color: blue;
+  color: #fff;
+}
+
+.grid {
+}
+
+.grid-sizer,
+.grid-item {
+  width: 23%;
+  margin: 10px;
+}
+
+.grid-item {
+  /* float: left; */
+  border-radius: 16px;
+  overflow: hidden;
+}
